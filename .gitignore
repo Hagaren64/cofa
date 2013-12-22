@@ -1,2 +1,3 @@
 # Files to ignore
 processors/config.php
+upload/
