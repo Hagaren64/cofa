@@ -6,7 +6,7 @@
 
 </div>	
 	<div id="footer">
-		<p>&copy; <?php echo date("Y"); ?> Zymo Research Corporation</p>
+		<p>&copy; <?php echo date("Y"); ?> Zymo Research Corporation (Author: Julian Togashi)</p>
 	</div>
 </body>
 </html>

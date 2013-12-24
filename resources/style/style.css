@@ -142,7 +142,17 @@ background-image: linear-gradient(to bottom, #FFFF75 0%, #FEFFD9 100%);
 	width: 100px;
 }
 #example_wrapper{
-	margin-bottom: 20px;
+	background-color: #EBEBEB;
+	padding: 15px;
+	border-radius: 8px;
+	border: 1px solid #C7C7C7;
+	margin-bottom: 30px;
+}
+#example_info{
+	margin-top:22px;
+}
+#example_paginate{
+	margin-top:22px;
 }
 .pdf_button{
 	float: right;
@@ -299,4 +309,30 @@ background-image: linear-gradient(to bottom, #FFFF75 0%, #FEFFD9 100%);
 .header_font{
 	font-size: 12px;
 	font-weight:100;
+}
+.coa_type{
+	width:290px;
+	border: 1px solid lightgray;
+	margin-bottom: 10px;
+	padding: 7px; 
+	margin-top: -80px;
+	background-color:#FFFBDA;
+	border-radius:7px;
+	float:right;
+	height:148px;
+}
+.coa_type p{
+	text-align:center;
+	margin-bottom:5px;
+}
+.upload_div{
+	width:290px;
+	border: 1px solid lightgray;
+	margin-bottom: 10px;
+	padding: 7px; 
+	margin-top: -80px;
+	background-color:#FFFBDA;
+	border-radius:7px;
+	float:left;
+	height:148px;
 }
