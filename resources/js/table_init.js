@@ -3,10 +3,12 @@ $(document).ready(function() {
 		//"bJQueryUI": true,
 		"sPaginationType": "full_numbers",
 		"bStateSave": true, 
-		/* "bProcessing": true,
+		"bProcessing": true,
+		/*"bServerSide": false,
 		"bDeferRender": true,
         "bRetrieve":true,
-        "bFilter":true */  
+        "bFilter":true,
+        "iDeferLoading": 57*/
     });
 } );
 

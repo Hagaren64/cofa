@@ -48,8 +48,11 @@
 			$this->SetFont('helvetica','',18);
 			if($cert_name==""){
 				$this->Cell(0,10,"Certificate of Analysis ",0,0,'C');
-			}
-			else{
+			} else if($cert_name=="coa"){
+				$this->Cell(0,10,"Certificate of Analysis ",0,0,'C');
+			} else if($cert_name=="doc"){
+				$this->Cell(0,10,"Declaration of Conformity",0,0,'C');
+			} else{
 				$this->Cell(0,10,"Certificate of ".$cert_name,0,0,'C');
 			}
 			$this->Ln(14);
